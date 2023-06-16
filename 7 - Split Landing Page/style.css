@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap');
 
 :root {
     --left-bg-color: rgba(87, 84, 236, 0.7);
@@ -75,7 +75,7 @@ h1 {
 
 .split.left {
     left: 0;
-    background: url('./exploer\ the\ world.jpg');
+    background: url('./playstation.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,7 +90,7 @@ h1 {
 
 .split.right {
     right: 0;
-    background: url('./forest.jpg');
+    background: url('./xbox.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
