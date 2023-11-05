@@ -50,7 +50,6 @@ submit.onclick = function () {
     if (title.value != ''
         && price.value != ''
         && category.value != ''
-        && newProduct.count > 0
         && newProduct.price > 0) {
         if (mood === 'create') {
             if (newProduct.count > 1) {
@@ -141,6 +140,7 @@ function deleteAll() {
 
 // update
 function updateData(i) {
+    console.log('xxxx')
     title.value = dataProduct[i].title;
     price.value = dataProduct[i].price;
     taxes.value = dataProduct[i].taxes;
